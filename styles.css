@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  background-color: #f1f1f1;
+  color: #0f141e;
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  color: #fef26ad5;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: aqua;
+} /*
+a:visited {
+  color: #f4520c;
+}*/
+.avatar {
+  width: 200px;
+  border-radius: 20%;
+  box-shadow: -4px -4px 14px rgba(0, 0, 0.25);
+}
+.info {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+@media (max-width: 700px) {
+  .info {
+    text-align: center;
+    display: block;
+  }
+}
+
+.info-text {
+  margin-left: 40px;
+}
+.info-text h4 {
+  margin-bottom: 10px;
+}
+.info p {
+  color: #86898f;
+  margin: 0;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: none;
+  /*text-transform: uppercase; */
+}
+/*box model*/
+.container {
+  max-width: 80%;
+  margin: auto;
+  padding-top: 30px;
+  margin-bottom: 100px;
+}
+
+.folecontainer {
+  background-image: url(2.jpg);
+  background-attachment: fixed;
+}
+
+.bg-yellow {
+  background: #fbdd31;
+}
+.bg-red {
+  background: #ffbcbc;
+}
+.bg-green {
+  background: #e5ffe7;
+}
+
+.card {
+  padding: 15px 6%;
+  margin-bottom: 2.5%;
+  border-radius: 20px;
+}
+
+.card h2 {
+  margin-bottom: 8px;
+}
+.list {
+  padding: 0px 20px;
+}
+.list li {
+  color: #86898f;
+  margin-bottom: 10px;
+}
+
+.contact h2 {
+  text-align: center;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: #cacaca;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+  outline: none;
+  font-family: inherit;
+}
+
+.rov {
+  display: flex;
+  margin-bottom: 20px;
+}
+.rov > .form-group {
+  width: 50%;
+}
+.rov > .form-group:first-child {
+  margin-right: 20px;
+}
+
+.btn {
+  color: #010101;
+  padding: 2% 1.5%;
+  background: #fbdd31;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 200px;
+}
+.btn:hover {
+  opacity: 0.9;
+}
